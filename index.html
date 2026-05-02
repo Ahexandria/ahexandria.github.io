@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Links</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin-bottom: 15px;
+        }
+
+        h1 { font-size: 1.5rem; margin-bottom: 5px; color: #333; }
+        p { color: #666; margin-bottom: 30px; }
+
+        .links-container {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-card {
+            background-color: #ffffff;
+            color: #333;
+            text-decoration: none;
+            padding: 18px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #eee;
+        }
+
+        .link-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Optional: Add a profile image URL in the src -->
+    <img src="https://placeholder.com" alt="Profile Picture" class="profile-pic">
+
+    <h1>@YourUsername</h1>
+    <p>Check out my latest content below!</p>
+
+    <div class="links-container">
+        <a href="https://instagram.com" class="link-card" target="_blank">Instagram</a>
+        <a href="https://tiktok.com" class="link-card" target="_blank">TikTok</a>
+        <a href="https://twitter.com" class="link-card" target="_blank">Twitter / X</a>
+        <a href="https://youtube.com" class="link-card" target="_blank">YouTube</a>
+        <a href="mailto:your@email.com" class="link-card">Contact Me</a>
+    </div>
+
+</body>
+</html>
